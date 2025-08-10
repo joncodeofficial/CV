@@ -15,12 +15,6 @@ export const changeTranslation = (path: string, currentLang: string) => {
     } else {
       value = value[key];
     }
-
-    // Si el valor es undefined, retorna una cadena vacía o un mensaje de error
-    if (!value) {
-      console.warn(`Translation not found for key: ${path}`);
-      return "";
-    }
   }
   return value;
 };
