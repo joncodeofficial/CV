@@ -50,5 +50,5 @@ This project is open source and available under the MIT License.
 
 ## 👤 Contact
 
-- GitHub: [@jonpena](https://github.com/joncodeofficial)
+- GitHub: [@joncodeofficial](https://github.com/joncodeofficial)
 - LinkedIn: [Jonathan Peña](https://www.linkedin.com/in/joncode)
