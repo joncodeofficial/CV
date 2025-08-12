@@ -7,18 +7,18 @@ A modern, responsive CV/Resume built with React, TypeScript, and Tailwind CSS.
 - Responsive design
 - Print-friendly layout
 - Clean and modern UI
-- Dark/light sections
 - Downloadable PDF format
 - Component-based architecture
 
 ## 🛠️ Technologies
 
-- React 18
+- React 19
 - TypeScript
-- Tailwind CSS
+- TailwindCSS
 - Vite
 - ESLint
 - react-to-print
+- vite-ssr-components SSR
 
 ## 🎨 Customization
 
@@ -50,5 +50,5 @@ This project is open source and available under the MIT License.
 
 ## 👤 Contact
 
-- GitHub: [@jonpena](https://github.com/jonpena)
-- LinkedIn: [Jonathan Peña](https://www.linkedin.com/in/jonpeña)
+- GitHub: [@jonpena](https://github.com/joncodeofficial)
+- LinkedIn: [Jonathan Peña](https://www.linkedin.com/in/joncode)
