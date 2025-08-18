@@ -42,10 +42,10 @@ export const Sidebar = () => {
             <Github className="text-white/80" size={18} />
             <a
               target="_blank"
-              href="https://github.com/jonpena"
+              href="https://github.com/joncodeofficial"
               className="text-sm hover:text-white/70 transition-colors"
             >
-              github.com/jonpena
+              github.com/joncodeofficial
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -62,10 +62,10 @@ export const Sidebar = () => {
             <BriefcaseBusiness className="text-white/80" size={18} />
             <a
               target="_blank"
-              href="https://jonpena.github.io/"
+              href="https://joncodeofficial.github.io/"
               className="text-sm hover:text-white/70 transition-colors"
             >
-              https://jonpena.github.io
+              https://joncodeofficial.github.io
             </a>
           </div>
         </div>
