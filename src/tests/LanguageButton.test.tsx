@@ -1,18 +1,18 @@
-import { render, screen } from "@testing-library/react";
-import { describe, it, expect, beforeEach, vi, afterAll } from "vitest";
-import LanguageButton from "../components/buttons/LanguageButton";
-import { Sidebar } from "../components/Sidebar";
-import { useTranslationStore } from "../store/translationStore";
-import { changeTranslation } from "../services/changeTranslation";
-import userEvent from "@testing-library/user-event";
+import { render, screen } from '@testing-library/react';
+import { describe, it, expect, beforeEach, vi, afterAll } from 'vitest';
+import userEvent from '@testing-library/user-event';
+import LanguageButton from '../components/buttons/LanguageButton';
+import { Sidebar } from '../components/Sidebar';
+import { useTranslation } from '../context/TranslationContext';
+import { changeTranslation } from '../utils/changeTranslation';
 
-vi.mock("../store/translationStore");
+vi.mock('../context/TranslationContext');
 
-let mockCurrentLang = "en";
+let mockCurrentLang = 'en';
 
 const mockToggleLanguage = vi.fn(() => {
-  // Simulamos el cambio de idioma
-  mockCurrentLang = mockCurrentLang === "es" ? "en" : "es";
+  // Simulate the language change
+  mockCurrentLang = mockCurrentLang === 'es' ? 'en' : 'es';
 });
 
 const mockUseTranslationStore = () => ({
@@ -21,9 +21,9 @@ const mockUseTranslationStore = () => ({
   t: (path: string) => changeTranslation(path, mockCurrentLang),
 });
 
-vi.mocked(useTranslationStore).mockImplementation(mockUseTranslationStore);
+vi.mocked(useTranslation).mockImplementation(mockUseTranslationStore);
 
-describe("LanguageButton", () => {
+describe('LanguageButton', () => {
   beforeEach(() => {
     render(
       <>
@@ -31,25 +31,25 @@ describe("LanguageButton", () => {
         <Sidebar />
       </>
     );
-    mockCurrentLang = "es";
+    mockCurrentLang = 'es';
   });
 
   afterAll(() => {
     vi.restoreAllMocks();
   });
 
-  it("should be language in English", async () => {
-    expect(screen.getByText("ESP")).toBeInTheDocument();
-    expect(screen.getByText("CONTACT ME")).toBeInTheDocument();
-    expect(screen.getByText("SKILLS")).toBeInTheDocument();
+  it('should be language in English', async () => {
+    expect(screen.getByText('ESP')).toBeInTheDocument();
+    expect(screen.getByText('CONTACT ME')).toBeInTheDocument();
+    expect(screen.getByText('SKILLS')).toBeInTheDocument();
   });
 
-  it("should be language in spanish", async () => {
+  it('should be language in spanish', async () => {
     const user = userEvent.setup();
-    await user.click(screen.getByRole("button"));
-    expect(mockCurrentLang).toBe("en");
-    expect(screen.getByText("ENG")).toBeInTheDocument();
-    expect(screen.getByText("CONTACTAME")).toBeInTheDocument();
-    expect(screen.getByText("HABILIDADES")).toBeInTheDocument();
+    await user.click(screen.getByRole('button'));
+    expect(mockCurrentLang).toBe('en');
+    expect(screen.getByText('ENG')).toBeInTheDocument();
+    expect(screen.getByText('CONTACTAME')).toBeInTheDocument();
+    expect(screen.getByText('HABILIDADES')).toBeInTheDocument();
   });
 });

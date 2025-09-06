@@ -1,9 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 *,
 *::before,
 *::after {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
 }
 
 /* Estilos específicos para impresión */
