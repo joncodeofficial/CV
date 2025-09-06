@@ -1,22 +1,18 @@
-import { useState } from "react";
-import { Pencil, Check } from "lucide-react";
+import { useState } from 'react';
+import { Pencil, Check } from 'lucide-react';
 
 export const EditButton = () => {
   const [isEditing, setIsEditing] = useState(false);
 
   const toggleEdit = () => {
     setIsEditing((prev) => {
-      if (!prev) {
-        document.designMode = "on";
-      } else {
-        document.designMode = "off";
-      }
+      document.designMode = prev ? 'off' : 'on';
       return !prev;
     });
   };
 
   return (
-    <div className="relative inline-block">
+    <div className='relative inline-block'>
       <button
         onClick={toggleEdit}
         className={`
@@ -24,9 +20,9 @@ export const EditButton = () => {
         `}
       >
         {isEditing ? (
-          <Check data-testid="check-icon" className="w-5 h-5" />
+          <Check data-testid='check-icon' className='w-5 h-5' />
         ) : (
-          <Pencil data-testid="pencil-icon" className="w-5 h-5" />
+          <Pencil data-testid='pencil-icon' className='w-5 h-5' />
         )}
       </button>
     </div>
