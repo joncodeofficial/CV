@@ -1,13 +1,13 @@
 export const WorkExperience = ({
   title,
   company,
-  period,
+  duration,
   location,
   responsibilities,
 }: {
   title: string;
   company: string;
-  period: string;
+  duration: string;
   location: string;
   responsibilities: string[];
 }) => {
@@ -20,7 +20,7 @@ export const WorkExperience = ({
             {company} {location}
           </p>
         </div>
-        <span className="text-gray-500 text-sm">{period}</span>
+        <span className="text-gray-500 text-sm">{duration}</span>
       </div>
       <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
         {responsibilities.map((item, index) => (
