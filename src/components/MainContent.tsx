@@ -24,7 +24,7 @@ export const MainContent = () => {
         <WorkExperience
           title={t("workExperience.holoXR.title")}
           company={t("workExperience.holoXR.company")}
-          period={t("workExperience.holoXR.period")}
+          duration={t("workExperience.holoXR.duration")}
           location={t("workExperience.holoXR.location")}
           responsibilities={[
             t("workExperience.holoXR.responsibilities.0"),
@@ -37,7 +37,7 @@ export const MainContent = () => {
         <WorkExperience
           title={t("workExperience.sevenSuite.title")}
           company={t("workExperience.sevenSuite.company")}
-          period={t("workExperience.sevenSuite.period")}
+          duration={t("workExperience.sevenSuite.duration")}
           location={t("workExperience.sevenSuite.location")}
           responsibilities={[
             t("workExperience.sevenSuite.responsibilities.0"),
@@ -50,7 +50,7 @@ export const MainContent = () => {
         <WorkExperience
           title={t("workExperience.norkut.title")}
           company={t("workExperience.norkut.company")}
-          period={t("workExperience.norkut.period")}
+          duration={t("workExperience.norkut.duration")}
           location={t("workExperience.norkut.location")}
           responsibilities={[
             t("workExperience.norkut.responsibilities.0"),
@@ -63,7 +63,7 @@ export const MainContent = () => {
         <WorkExperience
           title={t("workExperience.nanotecks.title")}
           company={t("workExperience.nanotecks.company")}
-          period={t("workExperience.nanotecks.period")}
+          duration={t("workExperience.nanotecks.duration")}
           location={t("workExperience.nanotecks.location")}
           responsibilities={[
             t("workExperience.nanotecks.responsibilities.0"),
@@ -83,14 +83,14 @@ export const MainContent = () => {
           <Education
             degree={t("education.udo.title")}
             school={t("education.udo.institution")}
-            period={t("education.udo.duration")}
+            duration={t("education.udo.duration")}
             details={t("education.udo.details")}
           />
 
           <Education
             degree={t("education.highSchool.title")}
             school={t("education.highSchool.institution")}
-            period={t("education.highSchool.duration")}
+            duration={t("education.highSchool.duration")}
             details={t("education.highSchool.details")}
           />
         </div>
