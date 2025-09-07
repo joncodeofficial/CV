@@ -41,10 +41,10 @@ export const Sidebar = () => {
             <Linkedin className='text-white/80' size={18} />
             <a
               target='_blank'
-              href='https://www.linkedin.com/in/jonpe%C3%B1a'
+              href='https://www.linkedin.com/in/joncode'
               className='text-sm hover:text-white/70 transition-colors'
             >
-              https://www.linkedin.com/in/jonpeña
+              https://www.linkedin.com/in/joncode
             </a>
           </div>
           <div className='flex items-center gap-3'>
