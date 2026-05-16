@@ -9,7 +9,7 @@ export const Sidebar = () => {
     <div className='bg-[#0082E6] text-white  pt-16 md:pt-4 p-4 lg:p-8 print:p-8 space-y-8 sidebar'>
       <div className='text-center mb-12'>
         <h1 className='text-4xl font-bold mb-2'>JONATHAN PEÑA</h1>
-        <h2 className='text-xl text-gray-100 tracking-wider'>FULL STACK DEVELOPER</h2>
+        <h2 className='text-xl text-gray-100 tracking-wider'>SOFTWARE ENGINEER</h2>
       </div>
 
       <div className='space-y-6'>
