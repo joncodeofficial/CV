@@ -3,7 +3,7 @@ export const translations = {
     profile: {
       title: 'PROFILE',
       description:
-        'Full Stack Developer with 5+ years of experience. Skilled in React, Next.js, Node.js, and Golang. Proficient in CSS, JavaScript, state management, and testing. Experienced in Docker, WebAssembly, and agile practices like Scrum and Kanban.',
+        'Full Stack Developer with 5+ years of experience building scalable web and mobile applications across diverse industries. Project leader and senior developer skilled in React, React Native, and Node.js. Experienced in Docker, agile practices, and leading end-to-end product development from concept to production.',
     },
     contact: {
       title: 'CONTACT ME',
@@ -14,18 +14,20 @@ export const translations = {
         'JavaScript',
         'TypeScript',
         'React.js',
-        'Next.js',
-        'HTML5/CSS',
+        'React Native',
         'Node.js',
         'Tailwind',
-        'Redux',
         'Git',
         'REST APIs',
-        'MongoDB',
-        'MySQL',
+        'MQTT',
+        'IoT / BLE Beacons',
+        'LoRaWAN',
+        'Prisma / ORMs',
+        'AWS / Cloudflare',
         'Docker',
+        'WebAssembly',
         'Clean Architecture',
-        'Testing',
+        'Vitest / Jest',
       ],
       soft: [
         'Effective Communication',
@@ -36,25 +38,38 @@ export const translations = {
         'Continuous Learning',
         'Time Management',
         'Empathy',
+        'AI Critical Thinking',
       ],
     },
     workExperience: {
       title: 'WORK EXPERIENCE',
-      holoXR: {
-        title: 'Frontend | MERN Developer',
-        location: 'HOLO XR — Santiago, Chile',
-        duration: '2023 - Present',
+      segula: {
+        title: 'Project Leader | Senior Developer',
+        location: 'SEGULA Technologies — Madrid, Spain',
+        duration: 'Aug 2025 - Present',
         responsibilities: [
-          'Created a Gantt chart with React.js.',
+          'Led IoT asset tracking for the railway sector (BLE, LoRaWAN, MQTT).',
+          'Built manual positioning mobile app with React Native.',
+          'Project lead and senior developer across the full product cycle.',
+          'Integrated IoT hardware (trackers, beacons, LoRaWAN gateways) with backend.',
+        ],
+      },
+      holoXR: {
+        title: 'Frontend | MERN & React Native Developer',
+        location: 'HOLO XR — Santiago, Chile',
+        duration: 'Jun 2023 - Aug 2025',
+        responsibilities: [
+          'Built a Gantt chart from scratch with React.js.',
           'Built a scheduler integrated with Autodesk APIs.',
-          'Enabled 3D model-based project progress tracking.',
+          'Enabled construction progress tracking via 3D building models.',
+          'Developed mobile features with React Native.',
           'Improved management through real-time visual tools.',
         ],
       },
       sevenSuite: {
         title: 'Frontend | React Developer',
         location: 'Seven Suite — San José, Costa Rica',
-        duration: '2023 - 2023',
+        duration: 'Jan 2023 - Jun 2023',
         responsibilities: [
           'Rebuilt a .NET app using Next.js frontend.',
           'Integrated .NET 6 backend with SQL Server.',
@@ -65,7 +80,7 @@ export const translations = {
       norkut: {
         title: 'FullStack | .NET Developer',
         location: 'Norkut — Nueva Esparta, Venezuela',
-        duration: '2022 - 2022',
+        duration: 'Feb 2022 - Oct 2022',
         responsibilities: [
           'Improved CRM features for supermarket management software.',
           'Developed point of sale and inventory control systems.',
@@ -78,21 +93,21 @@ export const translations = {
         location: 'Nanotecks — Santo Domingo de los Tsachilas, Ecuador',
         duration: '2020 - 2021',
         responsibilities: [
-          'Promoting apartments in Santo Domingo.',
-          'Attractive design for buyer interest.',
-          'SEO-focused for increased visibility.',
-          'Highlighting Ecuador market opportunity.',
+          'Built landing pages with React.js for real estate clients.',
+          'Focused on responsive design and visual polish.',
+          'Applied SEO best practices to improve organic visibility.',
+          'Collaborated with marketing team to translate briefs into web experiences.',
         ],
       },
     },
     education: {
       title: 'EDUCATION',
       udo: {
-        title: "Bachelor's Degree in Computer Science",
+        title: 'Computer Engineering (Incomplete)',
         institution: 'Universidad de Oriente (UDO)',
-        duration: '2017 - No finish',
+        duration: '2017 - Present',
         details:
-          'Completed coursework in programming, algorithms, databases, and software engineering.',
+          'Engineering degree program covering programming, algorithms, databases, and software engineering.',
       },
       highSchool: {
         title: 'High School',
@@ -105,7 +120,7 @@ export const translations = {
     profile: {
       title: 'PERFIL',
       description:
-        'Desarrollador Full Stack con más de 5 años de experiencia. Especializado en React, Next.js, Node.js y Golang. Experto en CSS, JavaScript, gestión de estado y pruebas. Experiencia en Docker, WebAssembly y prácticas ágiles como Scrum y Kanban.',
+        'Desarrollador Full Stack con más de 5 años de experiencia construyendo aplicaciones web y móviles escalables en distintas industrias. Líder de proyecto y desarrollador senior especializado en React, React Native y Node.js. Experiencia en Docker, prácticas ágiles y liderazgo de producto end-to-end desde la concepción hasta producción.',
     },
     contact: {
       title: 'CONTACTAME',
@@ -116,18 +131,20 @@ export const translations = {
         'JavaScript',
         'TypeScript',
         'React.js',
-        'Next.js',
-        'HTML5/CSS',
+        'React Native',
         'Node.js',
         'Tailwind',
-        'Redux',
         'Git',
         'REST APIs',
-        'MongoDB',
-        'MySQL',
+        'MQTT',
+        'IoT / BLE Beacons',
+        'LoRaWAN',
+        'Prisma / ORMs',
+        'AWS / Cloudflare',
         'Docker',
-        'Arquitectura Limpia',
-        'Pruebas',
+        'WebAssembly',
+        'Clean Architecture',
+        'Vitest / Jest',
       ],
       soft: [
         'Comunicación Efectiva',
@@ -138,25 +155,38 @@ export const translations = {
         'Aprendizaje Continuo',
         'Gestión del Tiempo',
         'Empatía',
+        'Pensamiento Crítico con IA',
       ],
     },
     workExperience: {
       title: 'EXPERIENCIA LABORAL',
-      holoXR: {
-        title: 'Frontend | MERN Developer',
-        location: 'HOLO XR — Santiago, Chile',
-        duration: '2023 - Presente',
+      segula: {
+        title: 'Líder de Proyecto | Desarrollador Senior',
+        location: 'SEGULA Technologies — Madrid, España',
+        duration: 'Ago 2025 - Presente',
         responsibilities: [
-          'Creó un gráfico Gantt con React.js.',
+          'Lideró IoT tracking de activos en sector ferroviario (BLE, LoRaWAN, MQTT).',
+          'Desarrolló app móvil de posicionamiento manual con React Native.',
+          'Líder de proyecto y desarrollador senior del ciclo completo de producto.',
+          'Integró hardware IoT (trackers, beacons, gateways LoRaWAN) con backend.',
+        ],
+      },
+      holoXR: {
+        title: 'Frontend | MERN & React Native Developer',
+        location: 'HOLO XR — Santiago, Chile',
+        duration: 'Jun 2023 - Ago 2025',
+        responsibilities: [
+          'Construyó un gráfico Gantt desde cero con React.js.',
           'Construyó un planificador integrado con Autodesk APIs.',
-          'Habilitó el seguimiento de proyectos basado en modelos 3D.',
+          'Habilitó el control de avance de obras mediante modelos 3D de edificios.',
+          'Desarrolló funcionalidades móviles con React Native.',
           'Mejoró la gestión con herramientas visuales en tiempo real.',
         ],
       },
       sevenSuite: {
         title: 'Frontend | React Developer',
         location: 'Seven Suite — San José, Costa Rica',
-        duration: '2023 - 2023',
+        duration: 'Ene 2023 - Jun 2023',
         responsibilities: [
           'Reconstruyó una aplicación .NET usando Next.js como frontend.',
           'Integró el backend .NET 6 con SQL Server.',
@@ -167,7 +197,7 @@ export const translations = {
       norkut: {
         title: 'FullStack | .NET Developer',
         location: 'Norkut — Nueva Esparta, Venezuela',
-        duration: '2022 - 2022',
+        duration: 'Feb 2022 - Oct 2022',
         responsibilities: [
           'Mejoró características del CRM para software de gestión de supermercados.',
           'Desarrolló sistemas de punto de venta y control de inventario.',
@@ -180,21 +210,21 @@ export const translations = {
         location: 'Nanotecks — Santo Domingo de los Tsáchilas, Ecuador',
         duration: '2020 - 2021',
         responsibilities: [
-          'Promoción de apartamentos en Santo Domingo.',
-          'Diseño atractivo para interés de compradores.',
-          'Enfoque SEO para mayor visibilidad.',
-          'Resaltando oportunidades en el mercado ecuatoriano.',
+          'Desarrolló landing pages con React.js para clientes del sector inmobiliario.',
+          'Enfoque en diseño responsivo y acabado visual.',
+          'Aplicó buenas prácticas de SEO para mejorar visibilidad orgánica.',
+          'Colaboró con equipo de marketing para convertir briefs en experiencias web.',
         ],
       },
     },
     education: {
       title: 'EDUCACIÓN',
       udo: {
-        title: 'Licenciatura en Ciencias de la Computación',
+        title: 'Ingeniería en Informática (Incompleta)',
         institution: 'Universidad de Oriente (UDO)',
-        duration: '2017 - No terminado',
+        duration: '2017 - Presente',
         details:
-          'Cursos completados en programación, algoritmos, bases de datos e ingeniería de software.',
+          'Carrera de ingeniería con formación en programación, algoritmos, bases de datos e ingeniería de software.',
       },
       highSchool: {
         title: 'Educación Secundaria',

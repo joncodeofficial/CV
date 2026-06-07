@@ -6,16 +6,29 @@ export const MainContent = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='bg-white p-4 lg:p-12 print:p-12 space-y-10'>
-      <section className='space-y-4'>
+    <div className='bg-white p-4 lg:p-12 print:p-8 space-y-10 print:space-y-6'>
+      <section className='space-y-4 print:space-y-2'>
         <h2 className='text-2xl font-bold tracking-wider text-[#0082E6]'>{t('profile.title')}</h2>
         <p className='text-gray-600 leading-relaxed'>{t('profile.description')}</p>
       </section>
 
-      <section className='space-y-6'>
+      <section className='space-y-6 print:space-y-4'>
         <h2 className='text-2xl font-bold tracking-wider text-[#0082E6]'>
           {t('workExperience.title')}
         </h2>
+
+        <WorkExperience
+          title={t('workExperience.segula.title')}
+          company={t('workExperience.segula.company')}
+          duration={t('workExperience.segula.duration')}
+          location={t('workExperience.segula.location')}
+          responsibilities={[
+            t('workExperience.segula.responsibilities.0'),
+            t('workExperience.segula.responsibilities.1'),
+            t('workExperience.segula.responsibilities.2'),
+            t('workExperience.segula.responsibilities.3'),
+          ]}
+        />
 
         <WorkExperience
           title={t('workExperience.holoXR.title')}
@@ -27,6 +40,7 @@ export const MainContent = () => {
             t('workExperience.holoXR.responsibilities.1'),
             t('workExperience.holoXR.responsibilities.2'),
             t('workExperience.holoXR.responsibilities.3'),
+            t('workExperience.holoXR.responsibilities.4'),
           ]}
         />
 
@@ -70,10 +84,10 @@ export const MainContent = () => {
         />
       </section>
 
-      <section className='space-y-6'>
+      <section className='space-y-6 print:space-y-4'>
         <h2 className='text-2xl font-bold tracking-wider text-[#0082E6]'>{t('education.title')}</h2>
 
-        <div className='space-y-6'>
+        <div className='space-y-6 print:space-y-3'>
           <Education
             degree={t('education.udo.title')}
             school={t('education.udo.institution')}

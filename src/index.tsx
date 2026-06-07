@@ -14,12 +14,8 @@ app.get('/', (c) => {
         <head>
           <title>CV - Jonathan Peña</title>
           <link rel='icon' type='image/svg+xml' href='/pdf.svg' />
-          <link rel='preconnect' href='https://fonts.googleapis.com' />
-          <link rel='preconnect' href='https://fonts.gstatic.com' />
-          <link
-            href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'
-            rel='stylesheet'
-          />
+          <link rel='preload' as='font' type='font/woff2' href='/fonts/poppins-400.woff2' crossOrigin='anonymous' />
+          <link rel='preload' as='font' type='font/woff2' href='/fonts/poppins-700.woff2' crossOrigin='anonymous' />
           <ReactRefresh />
           <ViteClient />
           <Script src='/src/main.tsx' />
